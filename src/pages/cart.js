@@ -10,6 +10,7 @@ function CartSection({ cartItems, totalPrice, cartTotalPrice,showConnectWalletPo
     };
     
 
+    
     return (
         <div className="col-5">
             {showConnectWalletPopup ? null : (
